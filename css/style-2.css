@@ -1,0 +1,195 @@
+/* 自我介紹排版 */
+#sec2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+#pic1 {
+    width: 400px;
+    height: 530px;
+    /* background-color: aqua; */
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 8px 8px 0px #f2440596;
+    border-radius: 5px;
+
+}
+
+#text {
+    width: 50%;
+    /* padding: 20px; */
+    /* border: 1px solid salmon; */
+}
+
+#text>div {
+    margin-bottom: 40px;
+}
+
+#text1>h2 {
+    font-size: 36px;
+    font-weight: 600;
+    padding: 40px 0px 40px 30px;
+}
+
+#text1>p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 10px;
+    margin-left: 32px;
+    font-weight: 600;
+    /* text-indent: 36px; */
+}
+
+#text2>h3,
+#bar>h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-left: 36px;
+}
+
+.edu-title {
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#edu-lst>li {
+    font-size: 14px;
+    background-color: rgba(219, 218, 218, 0.235);
+    /* border-radius: 15px; */
+    margin-left: 36px;
+    margin-bottom: 10px;
+    padding: 15px;
+    width: 85%;
+    font-weight: 600;
+
+
+}
+
+#edu-lst>li>p {
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+#bar>ul {
+    margin-left: 36px;
+    margin-top: 20px;
+}
+
+#bar>ul>li {
+    margin-bottom: 20px;
+}
+
+.skill-name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    display: inline-block;
+    width: 150px;
+}
+
+.skill-bar {
+    margin-left: 10px;
+    display: inline-block;
+    width: 150px;
+    height: 25px;
+    background-color: rgb(203, 199, 199);
+    border-radius: 50px;
+    position: relative;
+    box-shadow: 2px 2px 0px inset;
+}
+
+.skill-percent {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    /* display: inline-block; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* height: 100%; */
+    /* background-color: yellowgreen; */
+    border-radius: 50px;
+    color: #fff;
+}
+
+.skill-percent-1 {
+    background-color: #400101;
+    width: 80%;
+    height: 100%;
+    animation: bar-ani1 1s ease-in;
+}
+
+.skill-percent-2 {
+    background-color: #400101;
+    width: 70%;
+    height: 100%;
+    animation: bar-ani2 1s ease-in;
+}
+
+.skill-percent-3 {
+    background-color: #400101;
+    width: 90%;
+    height: 100%;
+    animation: bar-ani3 1s ease-in;
+}
+
+.skill-percent-4 {
+    background-color: #400101;
+    width: 50%;
+    height: 100%;
+    animation: bar-ani4 1s ease-in;
+}
+
+.skill-percent-5 {
+    background-color: #400101;
+    width: 50%;
+    height: 100%;
+    animation: bar-ani4 1s ease-in;
+}
+
+@keyframes bar-ani1 {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 80%
+    }
+}
+
+@keyframes bar-ani2 {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 70%
+    }
+}
+
+@keyframes bar-ani3 {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 90%
+    }
+}
+
+@keyframes bar-ani4 {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 50%
+    }
+}

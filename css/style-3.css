@@ -1,0 +1,38 @@
+/* 工作經歷排版 */
+#sec3 {
+    /* background-color: #400101; */
+    background-color: #F24405;
+    height: 330px;
+}
+
+table {
+    /* border: 1px solid black; */
+    margin-left: 100px;
+}
+
+caption {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 600;
+    text-shadow: 0.5px 0.5px 1px gray;
+    color: rgb(237, 237, 237);
+}
+
+tr {
+    border-bottom: 1px dashed black;
+}
+
+.tr-last {
+    border: 0px;
+}
+
+td {
+    padding: 20px 30px 20px 0px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: rgb(237, 237, 237);
+
+}

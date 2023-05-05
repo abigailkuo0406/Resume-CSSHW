@@ -1,0 +1,137 @@
+/* 聯絡表單排版 */
+#sec5 {
+    display: flex;
+    justify-content: left;
+}
+
+#Contact {
+    width: 700px;
+    height: 550px;
+    /* margin-left: 150px; */
+    margin: 20px 25px 0px 135px;
+    border: 4px double #400101;
+    border-radius: 10px;
+    /* background-image: linear-gradient(to left, #400101, #5f060d, #811013, #a31d14, #c52c13, #dc3d39, #ef505c, #ff667e, #ff90b9, #f6b9e3, #f2dffa, #ffffff); */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+
+
+}
+
+.ContactText {
+    width: 70%;
+    height: 10%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.ContactText>h3 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #F24405;
+    /* text-shadow: 0.5px 0.5px 3px #400101; */
+}
+
+.ContactText-p {
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.ContactText-1 {
+    width: 70%;
+    height: 5%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.ContactText-p1 {
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+/* 表單區塊 */
+
+#form {
+    width: 500px;
+    height: 550px;
+    background-color: #F24405;
+    border-radius: 10px;
+    /* box-shadow: 2px 2px 4px black inset; */
+    /* border: 1px double #400101; */
+    margin: 20px;
+    padding: 40px;
+    font-size: 18px;
+}
+
+
+#form>form>div {
+    margin-top: 18px;
+    margin-bottom: 27px;
+    margin-left: 30px;
+}
+
+#form>form>div>label {
+    display: inline-block;
+    width: 60px;
+    margin-right: 30px;
+    /* background-color: aquamarine; */
+    font-size: 22px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 4px black;
+    /* font-weight: 600; */
+}
+
+.input-sty {
+    display: inline-block;
+    margin-bottom: 15px;
+    height: 25px;
+    width: 150px;
+    border: 0px;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0.5px 0.5px 2px black inset;
+}
+
+#textarea {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#textarea>textarea {
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 2px black inset;
+}
+
+.submit {
+    display: inline-block;
+    margin-bottom: 15px;
+    height: 36px;
+    width: 80px;
+    border: 0px;
+    border-radius: 4px;
+    background-color: #400101;
+    color: #fff;
+    font-size: 18px;
+    box-shadow: 1px 1px 2px black;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background: gray;
+    color: #fff;
+}
